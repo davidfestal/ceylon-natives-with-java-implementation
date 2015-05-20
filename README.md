@@ -5,7 +5,9 @@ This is just a small project, to showcase that with the commits [ceylon-spec@857
 - write its implementation directly in Java, 
 - and _have the Java implementation considered as the **jvm backend native declaration** associated to the Ceylon native header declaration_.
 
-So now the Java-backend compiler compiles both the ceylon header **_and_** the Java implementation and doesn't produces any error (if their structure is the same of course).
+In this example the `natives/run.ceylon` file contains the Ceylon declaration, and the `natives/NativeClass` contains the implementation of the `NativeClass` Ceylon native header.
+
+And the Java-backend compiler compiles both `run.ceylon` **_and_** `NativeClass.java`, correctly treats them as native overloads, and doesn't produce any error (if their structure is the same of course).
 
 ## Use inside the IDE
 
