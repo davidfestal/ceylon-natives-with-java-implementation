@@ -18,6 +18,7 @@ public NativeClass(
 	@com.redhat.ceylon.compiler.java.metadata.Name("s")
 	@com.redhat.ceylon.compiler.java.metadata.TypeInfo("ceylon.language::String")
 	java.lang.String s) {
+	System.out.println(s);
 }
 
 // Method descriptor #27 ()Lcom/redhat/ceylon/compiler/java/runtime/model/TypeDescriptor;

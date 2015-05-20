@@ -13,5 +13,5 @@ shared native class NativeClassInCeylon(String s) {}
 shared native("java") class NativeClassInCeylon(String s) {}
 
 shared void run() {
-    NativeClass("a"); 
+    NativeClass("Hi from Java native implementation !"); 
 }
