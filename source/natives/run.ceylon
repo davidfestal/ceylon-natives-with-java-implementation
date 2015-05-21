@@ -10,7 +10,7 @@ shared native class NativeClass(String s) {}
  written in Ceylon"
 shared native class NativeClassInCeylon(String s) {}
 
-shared native("java") class NativeClassInCeylon(String s) {}
+shared native("jvm") class NativeClassInCeylon(String s) {}
 
 shared void run() {
     NativeClass("Hi from Java native implementation !"); 
